@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { Box, Heading, HStack, Tag, VStack, Text } from "@chakra-ui/react";
-import { Data } from "../../types/data";
+import { Data } from "../../types/Data";
 import { fetchRoute } from "../../services/fetchData";
 import useSwr from "swr";
 import useActiveQuarters from "../../hooks/useActiveQuarters";
@@ -44,7 +44,7 @@ const Plant = () => {
         <ul>
           {Object.keys(data?.care ?? {}).map((q) => {
             return (
-              <VStack p={6} w="100%" bg="" align="center">
+              <VStack p={6} w="100%" bg="" align="center" key={q}>
                 <Heading fontSize={"2xl"}>{q.toUpperCase()}</Heading>
                 <Text fontSize={"2xl"}>{data?.care[q]}</Text>
               </VStack>

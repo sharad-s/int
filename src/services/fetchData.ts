@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Data } from "../types/data";
+import { Data } from "../types/Data";
 
 const URL =
   "https://gist.githubusercontent.com/m5rk/5dbdb4f8dbb9d2a84b46b6f9cfec82ad/raw/c142410765bb2eec0d3c94cdd37e8687a81f451b/plant_care.json";

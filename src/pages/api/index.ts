@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
 import { fetchData } from "../../services/fetchData";
-import { Data } from "../../types/data";
+import { Data } from "../../types/Data";
 
 const PAGE_LIMIT = 20;
 

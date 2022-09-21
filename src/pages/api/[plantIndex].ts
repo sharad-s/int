@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { fetchData } from "../../services/fetchData";
-import { Data } from "../../types/data";
+import { Data } from "../../types/Data";
 
 /* Fetches a single plant by its index in the array */
 export default async function handler(

@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import useActiveQuarters from "../hooks/useActiveQuarters";
-import { Data } from "../types/data";
+import { Data } from "../types/Data";
 
 const Card: React.FC<{ data: Data; index: number }> = ({ data, index }) => {
   const quarters = useActiveQuarters(data);

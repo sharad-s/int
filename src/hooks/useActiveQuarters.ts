@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Data } from "../types/data";
+import { Data } from "../types/Data";
 
 export const useActiveQuarters = (data?: Data) => {
   const quarters: boolean[] = useMemo(() => {

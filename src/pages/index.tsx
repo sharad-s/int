@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Data } from "../types/data";
+import { Data } from "../types/Data";
 import useSwr from "swr";
 import Card from "../components/Card";
 import {
